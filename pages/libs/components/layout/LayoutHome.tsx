@@ -26,7 +26,7 @@ const withLayoutMain = (Component: any) => {
           <Stack id={"main"}>
             <Component {...props} />
           </Stack>
-         <Stack className={"footer"}>
+         <Stack id={"footer"}>
             <Footer />
           </Stack>
         </Stack>
